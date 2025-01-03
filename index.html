@@ -13,7 +13,7 @@
     <meta name="robots" content="noindex, nofollow" />
     
 
-    <style>
+		<style>
 			*,
 			*:after,
 			*:before {
@@ -32,9 +32,37 @@
 				justify-content: center;
 				min-height: 100%;
 			}
+			/* LAYOUT BLOCKS */
+			.container{
+				width:100%;
+				min-height:100%;
+				font-size:16px;
+				text-align:center;
+				overflow:hidden;
+				background:url(../img/cornerDec-top.png) top left no-repeat;
+			}
+			.scaffold{
+				width:100%;
+				text-align:center;
+				position: relative;
+			}
+			.fascia{ 
+				text-align:left; 
+				margin:0 auto; 
+			}
+			main.scaffold{
+				background:url(../img/cornerDec-bottom.png) bottom right no-repeat;
+				margin-bottom:4em;
+			}
       </style>
   </head>
   <body>
-    <p>Redirecting...</p>
+	  <div class="container">
+			<main class="scaffold">
+				<div class="fascia">
+    			<p>Redirecting...</p>
+				</div>
+			</main>
+		</div>
   </body>
 </html>
